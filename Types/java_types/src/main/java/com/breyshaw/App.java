@@ -1,5 +1,7 @@
 package com.breyshaw;
 
+import java.util.Date;
+
 /**
  * Hello world!
  *
@@ -31,7 +33,15 @@ public class App
 
 //----------------REFERENCE TYPES--------------------
 //Use to store complex objects
-
-        System.out.println( "Hello World!" );
+//Reference types deal with allocating memory
+//VS Code will automatically import a package needed when tabbed on
+//Packages create a namespace for classes. We can have the same class names in different packages. Using the Date java.util here
+//The new operator allocates memory. Memory doesn't have to be allocated for primitive types
+        Date now = new Date();
+        //now is the variable name
+        //The variable above is an instance of the Date() class. The class is like a blueprint. The instance itself is an object.
+        now.getTime();
+        //classes & objects have methods that we can access using the dot operator like on line 43. Reference types only
+        System.out.println(now);
     }
 }
