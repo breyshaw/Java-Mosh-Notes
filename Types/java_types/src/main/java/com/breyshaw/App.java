@@ -2,13 +2,6 @@ package com.breyshaw;
 
 import java.util.Date;
 
-/**
- * Hello world!
- *
- */
-
-
-
 public class App 
 {
     public static void main( String[] args )
@@ -45,3 +38,6 @@ public class App
         System.out.println(now);
     }
 }
+
+//In Primitive types, when we declare a variable like "byte", the value assigned to the variable will be stored in that memory location
+//In Reference types, the variable holds the address of the object in memory, not the actual object
